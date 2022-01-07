@@ -5,4 +5,32 @@
     background-image: url(../Images/quadra.jpg);
 }
 
+.formulario {
+    width: 550px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 6px 3px 3px black;
+    margin-right: 30px;
+}
 
+.regras {
+    width: 650px;
+    height: 550px;
+    border-radius: 15px;
+    box-shadow: 6px 3px 3px black;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.regras p {
+    text-align: left;
+}
+
+.regras ul li {
+    text-align: left;
+}
+
+.mainReserve {
+    display: flex;
+    justify-content: center;
+}
