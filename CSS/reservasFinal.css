@@ -1,0 +1,8 @@
+@import url(reset.css);
+@import url(style.css);
+
+#header.page-home {
+    background-image: url(../Images/quadra.jpg);
+}
+
+

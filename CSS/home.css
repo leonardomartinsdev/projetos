@@ -1,0 +1,6 @@
+@import url(style.css);
+
+#header.page-home {
+    background-image: url(../Images/fachada.jpg);
+}
+

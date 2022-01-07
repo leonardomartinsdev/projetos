@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condomínio do edifício Laguna</title>
+    <link href="CSS/reservasFinal.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header" class="page-home">
+        <div class="row">
+            <div class="logo">
+                <a href="index.html"><img src="Images/nova-logo.png" alt="Logo do Condomínio Laguna"></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="">O condomínio</a></li>
+                        <li><a href="reservas.html">Reservas</a></li>
+                        <li><a href="">Visitantes</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="title">
+                <h1>Faça a reserva do condômino para utilização das dependências</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="work" class="sect-main">
+            <h2>Canal de Reservas</h2>
+            <p class="subtitle">Organize as reservas do condomínio de forma prática e fácil. Preencha o formulário abaixo e siga o passo a passo.</p>
+                <form>
+                    <p><b>Dados do responsável</b></p>
+                        Nome do condômino <input type="text" name="nome">
+                        <br><br>
+                        Apartamento do responsável <input type="number" name="apto">
+                        <br><br>
+                        Quantos convidados/participantes? <input type="number" name="convidados" min="1" max="100">
+                        <br><br>
+                        Envie a lista com nome dos convidados (arquivo .doc ou .pdf) <input type="file" name="arquivos">
+                        <br><br>
+                        <input type="submit" name="next">
+                </form>
+
+        </section>
+    </main>
+    <footer id="footer" class="sect-footer">
+        <div class="row-footer">
+            <div class="col">
+                <div class="logo">
+                    <a href="index.html"><img src="Images/nova-logo.png" alt="Logo do Condomínio Laguna"></a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="">O condomínio</a></li>
+                            <li><a href="reservas.html">Reservas</a></li>
+                            <li><a href="">Visitantes</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col">
+                <div class="social">
+                    <a href="#">
+                        <img src="Images/whatsapp-g2cea8b31a_1280.png">
+                    </a>
+                    <a href="#">
+                        <img src="Images/facebook-ge87973a6f_1280.png">
+                    </a>
+                    <a href="#">
+                        <img src="Images/instagram-gc7cf6ee76_1280.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="copywright">
+            Leonardo Martins - todos os direitos reservados
+        </div>
+    </footer>
+    
+</body>
+</html>
